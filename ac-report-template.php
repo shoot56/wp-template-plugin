@@ -3,7 +3,7 @@
  * Plugin Name: Report Template
  * Description: Report Template plugin from anne&co to the theme.
  * Plugin URI: https://anneandco.ie/
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: Shutko Dmitry
  */
 

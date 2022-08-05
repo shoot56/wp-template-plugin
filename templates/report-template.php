@@ -165,7 +165,7 @@
 									<div class="deliver-hidden-section__video-title"><?php the_sub_field( 'video_title' ); ?></div>
 									<div class="deliver-hidden-section__video-frame">
 										<div class="video-item video-item--shadow">
-											<a class="video-item__play" data-fancybox="video-gallery" href="<?php the_sub_field( 'video_link' ); ?>">
+											<a class="video-item__play" data-fancybox="video-gallery-deliver" href="<?php the_sub_field( 'video_link' ); ?>">
 												<?php $video_preview_image = get_sub_field( 'video_preview_image' ); ?>
 												<?php if ( $video_preview_image ) : ?>
 													<img src="<?php echo esc_url( $video_preview_image['url'] ); ?>" width="<?php echo esc_attr( $video_preview_image['width'] ); ?>" height="<?php echo esc_attr( $video_preview_image['height'] ); ?>" alt="<?php echo esc_attr( $video_preview_image['alt'] ); ?>" />
@@ -425,7 +425,7 @@
 								</div>
 								<div class="supporting-section__visual" data-aos="fade-left" data-aos-delay="800" data-aos-duration="500">
 									<div class="video-item video-item--label video-item--white-shadow">
-										<a class="video-item__play" data-fancybox="video-gallery2" href="<?php the_sub_field( 'video_url' ); ?>">
+										<a class="video-item__play" data-fancybox="video-gallery-supporting" href="<?php the_sub_field( 'video_url' ); ?>">
 											<?php if ( $video_preview_image ) : ?>
 												<img src="<?php echo esc_url( $video_preview_image['url'] ); ?>" width="<?php echo esc_attr( $video_preview_image['width'] ); ?>" height="<?php echo esc_attr( $video_preview_image['height'] ); ?>" alt="<?php echo esc_attr( $video_preview_image['alt'] ); ?>" />
 											<?php endif; ?>
@@ -502,7 +502,7 @@
 												<div class="supporting-hidden-section__media-frame">
 													<?php if ( $supporting_video_preview_image ) : ?>
 														<div class="video-item video-item--label video-item--dark-shadow">
-															<a class="video-item__play" data-fancybox="video-gallery2" href="<?php the_sub_field( 'supporting_video_url' ); ?>">
+															<a class="video-item__play" data-fancybox="video-gallery-more-supporting" href="<?php the_sub_field( 'supporting_video_url' ); ?>">
 																<img src="<?php echo esc_url( $supporting_video_preview_image['url'] ); ?>" width="<?php echo esc_attr( $supporting_video_preview_image['width'] ); ?>" height="<?php echo esc_attr( $supporting_video_preview_image['height'] ); ?>" alt="<?php echo esc_attr( $supporting_video_preview_image['alt'] ); ?>" />
 															</a>
 														</div>
@@ -724,7 +724,7 @@
 							<?php if ( $video_preview_image ) : ?>
 								<div class="secure-section__video">
 									<div class="video-item video-item--white-shadow" data-aos="fade" data-aos-delay="800" data-aos-duration="300">
-										<a class="video-item__play" data-fancybox="video-report" href="<?php the_sub_field( 'video_url' ); ?>">
+										<a class="video-item__play" data-fancybox="video-secure" href="<?php the_sub_field( 'video_url' ); ?>">
 											<img src="<?php echo esc_url( $video_preview_image['url'] ); ?>" width="<?php echo esc_attr( $video_preview_image['width'] ); ?>" height="<?php echo esc_attr( $video_preview_image['height'] ); ?>" alt="<?php echo esc_attr( $video_preview_image['alt'] ); ?>" />
 										</a>
 									</div>
