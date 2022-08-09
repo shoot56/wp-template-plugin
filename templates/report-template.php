@@ -329,7 +329,7 @@
 											<?php while ( have_rows( 'social_stats' ) ) : the_row(); ?>
 												<div class="governance-hidden-grid__item social-stats">
 													<div class="social-stats__item">
-														<div class="social-stats__title">Social Stats</div>
+														<div class="social-stats__title">Social Media Stats</div>
 													</div>
 													<div class="social-stats__item">
 														<div class="social-stats__icon">
@@ -775,7 +775,7 @@
 													<div class="secure-hidden-section-row__title"><?php the_sub_field( 'section_1_title' ); ?></div>
 													<div class="secure-hidden-section-row__text"><?php the_sub_field( 'section_1_description' ); ?></div>
 													<div class="secure-hidden-section-row__ppp">
-														<div class="secure-hidden-section-row__ppp-label">ppp</div>
+														<div class="secure-hidden-section-row__ppp-label">PPP</div>
 														<div class="secure-hidden-section-row__ppp-val"><?php the_sub_field( 'section_1_ppp_value' ); ?></div>
 													</div>
 												</div>
