@@ -3387,6 +3387,7 @@ p {
 }
 .cta-section__visual {
   margin-bottom: -159px;
+  max-width: 352px;
 }
 @media only screen and (max-width: 767px) {
   .cta-section__visual {

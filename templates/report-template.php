@@ -35,7 +35,7 @@
 								<h1 class="promo-section__title"><?php the_sub_field( 'section_title' ); ?></h1>
 								<?php if ( $report_file ) : ?>
 									<div class="promo-section__button">
-										<a href="<?php echo esc_url( $report_file['url'] ); ?>" class="btn btn--orange">
+										<a href="<?php echo esc_url( $report_file['url'] ); ?>" target="_blank" class="btn btn--orange">
 											<span class="btn__text">Download Full Report</span>
 											<span class="btn__icon">
 												<svg class="svg-icon" width="16" height="16"><use xlink:href="<?php echo plugin_dir_url(__DIR__).'assets'; ?>/images/icons.svg#icon-download"></use></svg>
@@ -832,7 +832,7 @@
 						<div class="cta-section__button">
 							<?php if ( $report_file ) : ?>
 								<div class="promo-section__button">
-									<a href="<?php echo esc_url( $report_file['url'] ); ?>" class="btn btn--orange">
+									<a href="<?php echo esc_url( $report_file['url'] ); ?>" target="_blank" class="btn btn--orange">
 										<span class="btn__text">Download</span>
 										<span class="btn__icon">
 											<svg class="svg-icon" width="16" height="16"><use xlink:href="<?php echo plugin_dir_url(__DIR__).'assets'; ?>/images/icons.svg#icon-download"></use></svg>
